@@ -15,6 +15,8 @@ gem "jbuilder"
 gem 'haml', '>= 4.0.7'
 gem 'simple_form', '~> 5.2'
 gem 'devise', '~> 4.9'
+# Gemfile
+gem 'jquery-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
