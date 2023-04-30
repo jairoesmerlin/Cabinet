@@ -10,12 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_30_061918) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_30_065657) do
   create_table "docs", force: :cascade do |t|
     t.string "title"
-    t.text "contect"
+    t.text "context"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
